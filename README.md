@@ -1,2 +1,2 @@
 # lumina-comunicacao
-Projeto Integrador
+Projeto Integrador - Afesu Veleiros
