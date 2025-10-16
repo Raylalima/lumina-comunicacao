@@ -1,33 +1,307 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-br" data-theme="dark">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Lumina Comunicação</title>
-
-    <!-- Bootstrap Icons -->
+    <title>Rayla Lima - Portfolio</title>
+    <!-- Bootstrap icons -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
 
+    <!-- CSS Externo -->
     <link rel="stylesheet" href="estilo.css">
 </head>
 
 <body>
 
-    <header>
+    <header> <!-- Cabeçalho -->
+        <nav class="menu-desktop"> <!-- Menu Desktop -->
+            <ul class="menu menu-principal">
 
+                <li class="menu-item"> <!-- LISTA -->
+                    <a href="" class="menu-link">
+                        <span class="menu-text">Home</span>
+                    </a>
+                </li>
 
-        <!-- Logo -->
+                <li class="menu-item">
+                    <a href="" class="menu-link">
+                        <span class="menu-text">Produtos</span>
+                    </a>
+                </li>
+
+                <li class="menu-item">
+                    <a href="" class="menu-link">
+                        <span class="menu-text">Sobre</span>
+                    </a>
+                </li>
+
+                <li class="menu-item">
+                    <a href="" class="menu-link">
+                        <span class="menu-text">Contato</span>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+
+        <!-- LOGO -->
         <div class="header-logo">
             <a href="">
-                <img src="" alt="" class="logo">
+                <img src="img/logo.png" alt="" class="logo">
             </a>
         </div>
 
+        <!-- <i> icone -->
+        <!-- Trocar Cor Tema // -->
+        <div class="header-toggle">
+
+            <!-- Icone Sol -->
+            <i class="bi bi-sun" id="toggleTheme"></i>
+
+            <button id="menuHamburger" class="btn-menu-mobile">
+                <!-- Botao Mobile -->
+                <i class="bi bi-list"></i>
+
+            </button>
+
+        </div>
+
     </header>
-    
+
+    <!-- Estrutura Menu Mobile -->
+    <nav class="menu-mobile menu menu-principal" id="menuMobile">
+        <ul class="menu-list">
+
+            <li class="menu-item">
+                <a href="" class="menu-link">
+                    <span class="menu-text">Home</span>
+                </a>
+            </li>
+
+            <li class="menu-item">
+                <a href="" class="menu-link">
+                    <span class="menu-text">Projetos</span>
+                </a>
+            </li>
+
+            <li class="menu-item">
+                <a href="" class="menu-link">
+                    <span class="menu-text">Sobre</span>
+                </a>
+            </li>
+
+            <li class="menu-item">
+                <a href="" class="menu-link">
+                    <span class="menu-text">Contato</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+
+    <main id="home">
+
+        <!-- Seção Principal -->
+        <section class="main-content">
+            <!-- Título Principal -->
+            <h1>Estudante de Desenvolvimento Web</h1>
+
+            <p> Rayla Lima, São Paulo - SP, Estudante de Desenvolvimento Web. </p>
+
+            <ul class="menu redes-sociais">
+                <li>
+                    <a href="https://github.com/Raylalima" class="menu-link" target="_blank">
+
+                        <i class="bi bi-github"></i>
+
+                    </a>
+                </li>
+                <li>
+                    <a href="https://instagram.com" class="menu-link" target="_blank">
+
+                        <i class="bi bi-instagram"></i>
+
+                    </a>
+                </li>
+                <li>
+                    <a href="https://tiktok.com" class="menu-link" target="_blank">
+
+                        <i class="bi bi-tiktok"></i>
+
+                    </a>
+                </li>
+                <li>
+                    <a href="https://wa.me/55119" class="menu-link" target="_blank">
+
+                        <i class="bi bi-whatsapp"></i>
+
+                    </a>
+                </li>
+            </ul>
+
+        </section>
+
+        <div class="video">
+            <iframe src="https://www.youtube.com/embed/SZYljiz7MRc"
+                title="A Rede Anti-Social | TRÊS ESPIÂS DEMAIS | Episódio 1, Temporada 6" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+
+    </main>
+
+    <section class="descricao-video">
+        <h2>Conheça o desenho As Três Espiãs Demais</h2>
+    </section>
+
+    <!-- Pordutos -->
+    <section class="produtos" id="produtos">
+        <h2> Produtos </h2>
+
+        <div class="produtos-container">
+
+            <!-- Produto 1 -->
+            <div class="produto-card">
+
+                <img src="img/produtos/produto1.png"
+                    alt="Rímel RL - Espiãs Demais com embalagem prateada. Ao fundo, as três espiãs do desenho 'Totally Spies' aparecem sorrindo e fazendo poses, representando a linha de maquiagem da marca RL."
+                    class="img-card">
+
+                <div class="card-body">
+
+                    <h3 class="card-titulo">
+                        Rímel Espiãs Demais
+                    </h3>
+
+                    <p class="card-descricao">
+                        O rímel RL Espiãs Demais traz intensidade e estilo, inspirado nas espiãs mais famosas da TV.
+                    </p>
+
+                    <ul class="card-lista">
+                        <li class="card-item">
+                            <i class="bi bi-eye"></i>
+                            Cílios mais alongados
+                        </li>
+
+                        <li class="card-item">
+                            <i class="bi bi-stopwatch"></i>
+                            Durabilidade prolongada
+                        </li>
+
+                        <li class="card-item">
+                            <i class="bi bi-heart-fill"></i>
+                            Olhar elegante
+                        </li>
+                    </ul>
+
+                </div>
+
+            </div>
+            <!-- Fim produto 1 -->
+
+            <!-- Produto 2 -->
+            <div class="produto-card reverse-card">
+
+                <img src="img/produtos/produto02.png"
+                    alt="Paleta de sombras RL aberta, exibindo uma ampla variedade de cores que vão dos tons neutros aos vibrantes, com acabamento cintilante e matte. Ao lado, um pincel de maquiagem com pigmento solto reforça a ideia de expressão e versatilidade da marca."
+                    class="img-card">
+
+                <div class="card-body">
+
+                    <h3 class="card-titulo">
+                        Paleta Espiãs Demais
+                    </h3>
+
+                    <p class="card-descricao">
+                        Paleta de sombras RL com cores intensas e variadas, perfeita para criar looks versáteis e
+                        expressivos em qualquer ocasião.
+                    </p>
+
+                    <ul class="card-lista">
+                        <li class="card-item">
+                            <i class="bi bi-brush"></i>
+                            Acabamento profissional e luminoso
+                        </li>
+
+                        <li class="card-item">
+                            <i class="bi bi-palette-fill"></i>
+                            Cores intensas e fáceis de aplicar
+                        </li>
+
+                        <li class="card-item">
+                            <i class="bi bi-heart-fill"></i>
+                            Alta pigmentação e durabilidade
+                        </li> 
+                    </ul>
+
+                </div>
+
+            </div>
+            <!-- Fim produto 2 -->
+
+            <!-- Produto 3 -->
+            <div class="produto-card">
+
+                <img src="img/produtos/produto01.png"
+                    alt="Três glosses labiais da marca RL dispostos em um fundo iluminado, com tampas prateadas e tons que variam entre coral, vermelho intenso e nude perolado. Cada frasco destaca o brilho e a sofisticação da linha, transmitindo a proposta “RL – Luminosidade que Transforma”."
+                    class="img-card">
+
+                <div class="card-body">
+
+                    <h3 class="card-titulo">
+                        Gloss Espiãs Demais
+                    </h3>
+
+                    <p class="card-descricao">
+                        Gloss RL com brilho intenso e acabamento elegante, disponível em tons que realçam a beleza
+                        natural dos lábios.
+                    </p>
+
+                    <ul class="card-lista">
+                        <li class="card-item">
+                            <i class="bi bi-stars"></i>
+                            Brilho intenso com textura suave
+                        </li>
+
+                        <li class="card-item">
+                            <i class="bi bi-flask"></i>
+                            Hidratação e conforto nos lábios
+                        </li>
+
+                        <li class="card-item">
+                            <i class="bi bi-flower1"></i>
+                            Cores elegantes com acabamento radiante
+                        </li>
+                    </ul>
+
+                </div>
+
+            </div>
+            <!-- Fim produto 3 -->
+
+        </div>
+
+    </section>
+    <!-- Fim Projetos -->
 
 
+    <section class="sobre" id="sobre">
+        <h2> Sobre Nós </h2>
+    </section>
+
+    <!-- Contato -->
+    <section class="contato" id="contato">
+        <h2>Contato</h2>
+    </section>
+
+    <!-- Roda Pé -->
+    <footer>
+        <p>
+            &copy; 2025.
+        </p>
+    </footer>
+
+
+    <!-- liBRAS -->
     <div vw class="enabled">
         <div vw-access-button class="active"></div>
         <div vw-plugin-wrapper>
@@ -42,4 +316,5 @@
     <script src="script.js"></script>
 
 </body>
+
 </html>
