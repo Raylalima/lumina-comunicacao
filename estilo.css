@@ -2,3 +2,9 @@ body{
     height: 100vh;
     background: linear-gradient(purple, pink);
 }
+header{
+    text-decoration: none;
+    color: white;
+    background: black;
+    border-radius: 20px;
+}
