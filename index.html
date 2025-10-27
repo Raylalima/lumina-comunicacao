@@ -1,46 +1,50 @@
 <!DOCTYPE html>
-<html lang="pt-br" data-theme="dark">
+<html lang="pt-br">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> Lumina Comunicação </title>
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-    
+    <title>Lumina Comunicação</title>
+
     <!-- Bootstrap Icons -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
 
-    <!-- CSS Externo -->
     <link rel="stylesheet" href="estilo.css">
 </head>
 
 <body>
 
-    <header> 
-	<!-- Cabeçalho -->
-
+     <header> <!-- Cabeçalho -->
         <nav class="menu-desktop"> <!-- Menu Desktop -->
             <ul class="menu menu-principal">
 
-                <li class="menu-item">
-                    <a href="#home" class="menu-link">
-                        <span class="menu-text">Home</span>
-                    </a>
-                </li>
-                <li class="menu-item">
-                    <a href="#projetos" class="menu-link">
-                        <span class="menu-text">projetos</span>
-                    </a>
-                </li>
-                <li class="menu-item">
+                <li class="menu-item"> <!-- LISTA -->
                     <a href="" class="menu-link">
-                        <span class="menu-text">sobre</span>
+                        <span class="menu-text">Home</span>
                     </a>
                 </li>
 
                 <li class="menu-item">
                     <a href="" class="menu-link">
-                        <span class="menu-text">contato</span>
+                        <span class="menu-text">Sobre</span>
+                    </a>
+                </li>
+
+                <li class="menu-item">
+                    <a href="" class="menu-link">
+                        <span class="menu-text">Comércios</span>
+                    </a>
+                </li>
+
+                <li class="menu-item">
+                    <a href="" class="menu-link">
+                        <span class="menu-text">Serviço</span>
+                    </a>
+                </li>
+
+                <li class="menu-item">
+                    <a href="" class="menu-link">
+                        <span class="menu-text">Contato</span>
                     </a>
                 </li>
             </ul>
@@ -49,26 +53,27 @@
         <!-- LOGO -->
         <div class="header-logo">
             <a href="">
-                <img src="img/logo.png" alt="" class="logo">
+                <img src="" alt="" class="logo">
             </a>
         </div>
 
-
+        <!-- <i> icone -->
         <!-- Trocar Cor Tema // -->
         <div class="header-toggle">
-            <!-- Icone SOL -->
-            <i class="bi bi-sun" id="toggleTheme"> </i>
+
+            <!-- Icone Sol -->
+            <i class="bi bi-sun" id="toggleTheme"></i>
 
             <button id="menuHamburger" class="btn-menu-mobile">
-
-                <!-- Botão Mobile -->
+                <!-- Botao Mobile -->
                 <i class="bi bi-list"></i>
 
             </button>
+
         </div>
 
     </header>
-
+    
     <!-- Estrutura Menu Mobile -->
     <nav class="menu-mobile menu menu-principal" id="menuMobile">
         <ul class="menu-list">
@@ -104,25 +109,25 @@
         <!-- Seção Principal -->
         <section class="main-content">
             <!-- Titulo - Principal -->
-            <h1> Comercios Perto De Você </h1>
+            <h1> Soluções Digitais & Desenvolvimento Front-End </h1>
 
-            <p> </p>
+            <p> Gustavo Feriani. São Paulo - SP Desenvolvedor e Instrutor Front-End. </p>
 
             <ul class="menu redes-sociais">
                 <li>
-                    <a href="https://github.com/" class="menu-link" target="_blank">
+                    <a href="https://github.com/guuhferiani" class="menu-link" target="_blank">
                         <i class="bi bi-github"></i>
                     </a>
                 </li>
 
                 <li>
-                    <a href="https://instagram.com/" class="menu-link" target="_blank">
+                    <a href="https://instagram.com/gustavo.feriani" class="menu-link" target="_blank">
                         <i class="bi bi-instagram"></i>
                     </a>
                 </li>
 
                 <li>
-                    <a href="https://mail.google.com/mail" class="menu-link" target="_blank">
+                    <a href="https://facebook.com" class="menu-link" target="_blank">
                         <i class="bi bi-facebook"></i>
                     </a>
                 </li>
@@ -137,7 +142,9 @@
         </section>
 
         <div class="video">
-            
+            <iframe src="https://www.youtube.com/embed/Lh5PSFghH6M" title="Edite fotos com Gemini" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
         </div>
 
     </main>
@@ -155,34 +162,34 @@
             <!-- Projeto 1 -->
             <div class="projeto-card">
 
-                <img src=""
-                    alt=""
+                <img src="img/projetos/games-store.jpg"
+                    alt="Computador exibindo uma loja de jogos online com destaque para o jogo Valorant na tela inicial. A interface mostra menu lateral à esquerda, banner principal e seção de destaques com outros jogos."
                     class="img-card">
 
                 <div class="card-body">
 
                     <h3 class="card-titulo">
-                        
+                        Games Store
                     </h3>
 
                     <p class="card-descricao">
-                       
+                        Loja online para vendas de Jogos Digitais.
                     </p>
 
                     <ul class="card-lista">
                         <li class="card-item">
-                            <i class="bi bi"></i>
-                            
+                            <i class="bi bi-pc-display-horizontal"></i>
+                            Jogos para PC
                         </li>
 
                         <li class="card-item">
-                            <i class="bi bi-"></i>
-                           
+                            <i class="bi bi-playstation"></i>
+                            Jogos para Playstation 5
                         </li>
 
                         <li class="card-item">
-                            <i class="bi bi-"></i>
-                            
+                            <i class="bi bi-nintendo-switch"></i>
+                            Jogos para Nintendo Switch
                         </li>
                     </ul>
 
@@ -194,32 +201,32 @@
             <!-- Projeto 2 -->
             <div class="projeto-card reverse-card">
 
-                <img src="" alt="" class="img-card">
+                <img src="img/projetos/josisbox.jpg" alt="" class="img-card">
 
                 <div class="card-body">
 
                     <h3 class="card-titulo">
-                        
+                        Josis Livraria
                     </h3>
 
                     <p class="card-descricao">
-                        
+                        Loja online para vendas de Jogos Digitais.
                     </p>
 
                     <ul class="card-lista">
                         <li class="card-item">
-                            <i class="bi bi-"></i>
-                            
+                            <i class="bi bi-pc-display-horizontal"></i>
+                            Jogos para PC
                         </li>
 
                         <li class="card-item">
-                            <i class="bi bi-"></i>
-                            
+                            <i class="bi bi-playstation"></i>
+                            Jogos para Playstation 5
                         </li>
 
                         <li class="card-item">
-                            <i class="bi bi-"></i>
-                            
+                            <i class="bi bi-nintendo-switch"></i>
+                            Jogos para Nintendo Switch
                         </li>
                     </ul>
                 </div>
@@ -230,32 +237,34 @@
             <!-- Projeto 3 -->
             <div class="projeto-card">
 
-                <img src="" alt="" class="img-card">
+                <img src="img/projetos/portfolio.PNG" alt="" class="img-card">
 
                 <div class="card-body">
 
                     <h3 class="card-titulo">
-                        
+                        Portfolio Profissional
                     </h3>
 
                     <p class="card-descricao">
-                        
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium beatae suscipit inventore
+                        autem impedit molestias tenetur cum? Nemo totam eaque fugiat minus veritatis quos, saepe earum
+                        est enim aspernatur eius.
                     </p>
 
                     <ul class="card-lista">
                         <li class="card-item">
-                            <i class="bi bi-"></i>
-                            
+                            <i class="bi bi-images"></i>
+                            Projetos Visuais
                         </li>
 
                         <li class="card-item">
-                            <i class="bi bi-"></i>
-                            
+                            <i class="bi bi-css"></i>
+                            Aplicações Responsivas
                         </li>
 
                         <li class="card-item">
-                            <i class="bi bi-"></i>
-
+                            <i class="bi bi-gem"></i>
+                            Projetos Incríveis
                         </li>
                     </ul>
 
@@ -283,9 +292,7 @@
         </p>
     </footer>
 
-
-
-    <!-- Libras -->
+<!-- LIBRAS -->
     <div vw class="enabled">
         <div vw-access-button class="active"></div>
         <div vw-plugin-wrapper>
@@ -297,9 +304,7 @@
         new window.VLibras.Widget("https://vlibras.gov.br/app/");
     </script>
 
-
     <script src="script.js"></script>
 
 </body>
-
 </html>
